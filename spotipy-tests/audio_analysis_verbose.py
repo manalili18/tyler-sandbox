@@ -1,6 +1,4 @@
 
-# Taken from https://github.com/plamere/spotipy
-#   on 23 02 2020 by PM
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
