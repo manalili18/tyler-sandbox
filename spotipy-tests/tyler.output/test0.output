@@ -1,0 +1,28 @@
+#does not work
+
+https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu
+
+Request headers: {'Content-Type': 'application/json'}
+Response headers: {'WWW-Authenticate': 'Bearer realm="spotify"', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context', 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, DELETE, PATCH', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Max-Age': '604800', 'Content-Type': 'application/json', 'content-encoding': 'gzip', 'Date': 'Tue, 25 Feb 2020 01:38:19 GMT', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+HTTP status 401
+GET https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu
+Traceback (most recent call last):
+  File "/home/tyler/.miniconda3/envs/testenv/lib/python3.8/site-packages/spotipy/client.py", line 163, in _internal_call
+    r.raise_for_status()
+  File "/home/tyler/.miniconda3/envs/testenv/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "test0.py", line 14, in <module>
+    artist = sp.artist(urn)
+  File "/home/tyler/.miniconda3/envs/testenv/lib/python3.8/site-packages/spotipy/client.py", line 296, in artist
+    return self._get("artists/" + trid)
+  File "/home/tyler/.miniconda3/envs/testenv/lib/python3.8/site-packages/spotipy/client.py", line 193, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/tyler/.miniconda3/envs/testenv/lib/python3.8/site-packages/spotipy/client.py", line 169, in _internal_call
+    raise SpotifyException(
+spotipy.client.SpotifyException: http status: 401, code:-1 - https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu:
+ No token provided

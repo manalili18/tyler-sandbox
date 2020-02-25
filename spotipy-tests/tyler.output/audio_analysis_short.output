@@ -1,0 +1,59 @@
+#works
+
+meta
+  analyzer_version
+  platform
+  detailed_status
+  status_code
+  timestamp
+  analysis_time
+  input_process
+
+track
+  num_samples
+  duration
+  sample_md5
+  offset_seconds
+  window_seconds
+  analysis_sample_rate
+  analysis_channels
+  end_of_fade_in
+  start_of_fade_out
+  loudness
+  tempo
+  tempo_confidence
+  time_signature
+  time_signature_confidence
+  key
+  key_confidence
+  mode
+  mode_confidence
+  codestring
+  code_version
+  echoprintstring
+  echoprint_version
+  synchstring
+  synch_version
+  rhythmstring
+  rhythm_version
+
+bars
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+beats
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+tatums
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+sections
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+segments
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
