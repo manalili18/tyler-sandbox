@@ -1,5 +1,3 @@
-#works
-
 meta
   analyzer_version
   platform
@@ -11,31 +9,57 @@ meta
 
 track
   num_samples
+    5707128
   duration
+    258.82667
   sample_md5
+    
   offset_seconds
+    0
   window_seconds
+    0
   analysis_sample_rate
+    22050
   analysis_channels
+    1
   end_of_fade_in
+    0.61655
   start_of_fade_out
+    248.43029
   loudness
+    -7.136
   tempo
+    151.779
   tempo_confidence
+    0.143
   time_signature
+    4
   time_signature_confidence
+    0.987
   key
+    3
   key_confidence
+    0.337
   mode
+    1
   mode_confidence
+    0.595
   codestring
+    eJxVmgmy3T... truncated
   code_version
+    3.15
   echoprintstring
+    eJzFvQmSLL... truncated
   echoprint_version
+    4.12
   synchstring
+    eJx1WYmV3L... truncated
   synch_version
+    1.0
   rhythmstring
+    eJxVXIeRJD... truncated
   rhythm_version
+    1.0
 
 bars
   This section contains tons of timestamped attributes.
