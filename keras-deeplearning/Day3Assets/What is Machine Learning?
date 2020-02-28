@@ -1,0 +1,39 @@
+What is machine learning?
+
+- Machine learning describes a machine’s (computer program’s) ability to learn and improve from experience.
+- If a program yields a net improvement in its results without being explicitly programmed, it is said to have learned.
+- Programs will get better at performing their task with increased exposure to relevant data and further training.
+- We use machine learning in optimization, prediction, and classification scenarios.
+- Examples: such as stock market prediction, or image recognition.
+- There are many machine learning algorithms that we can use, each with their own strengths and weaknesses.
+- We will be using a convolutional neural network for image classification trained under supervised learning.
+
+
+There are 4 main steps to building a machine learning model: processing data, building a model, training the model,
+    and testing the model
+
+- Processing data: This is where we gather and format enough data to train a model
+    The more relevant data the model has been fed, the more accurate it can be.
+    We first gather a lot of relevant data that is useful for training our model.
+    We then have to process the data so that it is all of the same format and can be easily interpreted by the model.
+    Generally, we divide the total amount of data into training and testing sets and label the data.
+- Building a model: This is where we actually write the algorithms to help us solve our problem
+    We first have to decide which type of model works best for our situation.
+    Then, we implement the model by constructing a computational graph.
+    This graph will contain all of the operations used to process the input and produce a useful output.
+    It is a network of interconnected nodes that hold values or operations and maps pathways from inputs to outputs
+    The graph is where all of the calculation happens that produces the results (hopefully) that we want.
+- Training the model: This is where the model becomes more accurate by modifying values within the graph
+    We run the training data through our model and compare the model’s outputs to the expected results.
+    The total difference between the expected answer and the model output is called the loss.
+    Generally we try to minimize this as it means we are getting closer to the correct answer.
+    We use optimization functions to alter values within the graph as the model trains to minimize loss.
+    Supervised learning is where we teach the model which outputs map to certain inputs
+    The model changes its values to try to match the input-output mapping that we established.
+    If we are happy with the results, we continue to testing phase.
+    If not, we adjust parameters within the model or fetch more data and continue the training process.
+- Testing the model: Once we are happy with our results from training we run the model on a test data set.
+    We then measure how well our model performs on data that it has never seen before.
+    If we are happy with the results (loss, accuracy, etc.) then we have a completed model!
+    We of course have to convert our outputs into something meaningful to us.
+    For example with image classification, we want to map the outputs to labels that categorize each input image.

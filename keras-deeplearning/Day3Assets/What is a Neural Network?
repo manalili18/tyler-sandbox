@@ -1,0 +1,32 @@
+2) What are neural networks?
+
+- A network of interconnected nodes, each with "weights" and "biases" and data flows through it from input to output
+- Neural networks are a set of algorithms designed to recognize patterns.
+- The name is derived from their structure, modelled around the human brain.
+- Several layers, each containing operations to process inputs, or map pathways through the network to produce outputs.
+- We’ll focus mostly on the network layers ("dense" or "connected") and take a look at operations in the next section.
+
+
+- These layers consist of mini networks of many interconnected nodes, each with assigned “weights” and a “biases”.
+- Weights are assigned an initial value assigned and are altered according to an activation function during training.
+- Biases are just some constant value assigned to each node.
+- The weight of each connection determines with path to take once a node receives an input, repeated until the end.
+- The output of one layer (or pathway) may be in the input to the next layer or map to one of the final end nodes.
+- What this means for us is that the image data runs through the network until patterns are recognized.
+- We get similar images consistently mapping to the final output node, even if the middle of the pathway is different.
+- For example, if our model tries to recognize whether or not an image contains a face, each image with a face will,
+    after training, take similar (albeit not identical) pathways through the network.
+    Images without faces will take different pathways that ultimately map to different output neurons.
+- Image classification is all about recognizing patterns consistent to all images of a category.
+- Our models learn the pathways and adjust neuron weights during training to build said pathways.
+
+
+
+
+a1 ------------- b1 --------
+   \   /                     \
+    \ /                       \
+      ---------- b2 ---------- c1
+    / \                       /
+   /   \                     /
+a2 ------------- b3 --------
