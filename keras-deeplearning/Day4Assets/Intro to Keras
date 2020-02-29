@@ -1,0 +1,19 @@
+What is Tensorflow?
+
+- Tensorflow is a high level library for numerical computation (particularly with regards to machine learning)
+- It is written in C++ but we access it using Python
+- It allows us to fairly easily build, train, and test machine learning models
+- However, we have to explicitly build each layer and manually build training and testing loops and optimizers
+- Flexible and easy to use but Keras is much easier
+
+
+What is Keras?
+
+- Keras is a high level machine learning API that works on top of other machine learning frameworks
+- We will use it on top of the Tensorflow framework
+- It is easier to use than basic Tensorflow
+- More user friendly
+- Simpler syntax
+- Build models with ease; add layers by simply creating layer objects and adding them to the model
+- Train, test, and predict with models simply by calling built in functions
+- Easily integrate GPU

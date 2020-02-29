@@ -6,19 +6,19 @@ stackskills.com. Days 1 and 2 are basics of Python.
 - basic definition: machines ability to learn from previous experience
 - programs should get better with increased exposure to relevant data
 - examples
-    -- opt, prediction, classifications
-    -- stock market prediction or image recognition
-        --- stock market hard
-        --- image recog easy and can use simple machines
+    - opt, prediction, classifications
+    - stock market prediction or image recognition
+        - stock market hard
+        - image recog easy and can use simple machines
 - many different algorithms
-    -- we will use convolutional NN trained with supervised learning
+    - we will use convolutional NN trained with supervised learning
 
 ### 4 steps
     1. processing 
         - more relevant == more accurate
         - gather a lot of data is time consuming
-            -- a lot of preformatted databases online
-            -- data collection can be the most frustrating
+            - a lot of preformatted databases online
+            - data collection can be the most frustrating
         - data formatting must be the same and easily interpreted
         - divide data into training and testing sets and label the data
 
@@ -52,12 +52,12 @@ stackskills.com. Days 1 and 2 are basics of Python.
     to output
 - set of algorithms designed to recognize patterns
 - hand drawn digit recognition
-    -- model recognizes patterns of dark against light paper
+    - model recognizes patterns of dark against light paper
 - derived from the structure model of the human brain
 - several layers containing operations to process inputs or map pathways through 
     the net to produce outputs
 - focus mostly on network layers (dense or connected)
-    -- network, dense, and connected refer to the same thing
+    - network, dense, and connected refer to the same thing
 
 - layers of mini networks of many interconnected nodes each with assigned weights
     and biases
@@ -78,33 +78,33 @@ stackskills.com. Days 1 and 2 are basics of Python.
     with a fixed size
 - each pixel is a feature and should be analyzed to accurately classify 
     the image
-    -- for humans classification is very simple at glancing
-    -- model must analyze the whole thing
-    -- each pixel is considered a feature, 32x32 image has 1024 features
-        --- not every pixel is important
+    - for humans classification is very simple at glancing
+    - model must analyze the whole thing
+    - each pixel is considered a feature, 32x32 image has 1024 features
+        - not every pixel is important
 - 1024 neurons in first layer
-    -- even more in layer b
-    -- 1024 neurons times 1024 connections, no computer can handle this
-    -- convolve and maxpooling to reduce image size
+    - even more in layer b
+    - 1024 neurons times 1024 connections, no computer can handle this
+    - convolve and maxpooling to reduce image size
 - dont care about most of the image
-    -- only the pixels that involve the dog
-    -- dont care about finer details like hair
-    -- dont care of non dog pixels
-    -- hilight features that are important
+    - only the pixels that involve the dog
+    - dont care about finer details like hair
+    - dont care of non dog pixels
+    - hilight features that are important
 
 ### convolutions
 - like a double integral, really cool
 - takes a matrix of pixel values, and applies a kernel to each block 
-    -- kernel also can be called a filter
+    - kernel also can be called a filter
 - apply kernel block to each part of the image until the entire image is
     is covered
 - matches in image data and kernel get applied to produce a smaller image size
-    -- hilighted a smaller set of features
-    -- convolutions occur in filters too like convolutions
-    -- max pooling also occur outside of ML
+    - hilighted a smaller set of features
+    - convolutions occur in filters too like convolutions
+    - max pooling also occur outside of ML
 - reduces noise
-    -- dont care about the fine details
-    -- dont care about the background image
+    - dont care about the fine details
+    - dont care about the background image
 
 ### max pooling
 - creates borders and finds the max value 
@@ -116,6 +116,31 @@ stackskills.com. Days 1 and 2 are basics of Python.
 - convolve => max pool => formatting => dense => dropout
 
 # Day 4: Explore the Keras API
+
+## 00. Intro to Day 4
+- goals: coding, coding, and lessons
+- writing code
+- lecture in activation 
+    - commonly used functions
+    - advantages of function over the other    
+
+## 01. Intro to TensorFlow and Keras
+
+### What is TensorFlow?
+
+- high level library for mathematical computational, focused on ML
+- build and predict pretrained model
+- very time consuming to build ML engine from scratch
+- TensorFlow is built in C++
+- very flexible, not as easy as keras, especially with conv models
+    - complex model lets more custom
+    - manually build
+
+### What is Keras?
+
+- keras is built ontop of tensorflow
+
+
 
 ## 02. Understanding Keras Syntax
 ### Before you run, set up your env:

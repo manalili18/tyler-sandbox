@@ -1,0 +1,47 @@
+Common Activation Functions:
+
+- Activation functions are assigned to nodes and take the sum of all inputs, apply a function, and produce an output
+- We can change the output from a node by using a different activation function
+- Different activation functions are better for some situations and worse for others
+- We will briefly examine a few of many: identity, binary step, logistic/sigmoid, tanH, reLU, leakyReLU, and softmax
+
+
+Identity: output = input
+- This just outputs what it receives as input so considered linear
+- Not great as it doesn't take multiple variables into account so results in more simple models
+
+
+Binary step: output = 1 if input >= 0 or output = 0 if input < 0
+- Turns all positive inputs to 1 and negative outputs to 0
+- Better, but not great because it can cause dead neurons (when output goes to 0)
+
+
+Logistic/sigmoid: output -> 0 as input < 0 or output -> 1 as input > 0
+- Similar to binary step but more of a gentle slope so approaches but doesn't quite reach 1 or 0
+- Again, better, but still have the problem of dead neurons or very nearly dead neurons
+
+
+TanH: output -> -1 as input < 0 or output -> 1 as input > 0
+- Very similar to logistic/sigmoid except that negative inputs -> -1 instead of 0
+- Decent, but still not amazing as it suffers from the dead neuron problem still and there are better solutions
+
+
+ReLU: output = 0 if input < 0 or output = input if input >= 0
+- Basically all negative inputs produce output of 0 and positive inputs produce the same output
+- Much better as we allow positive or "good" inputs to maintain their value and propagate through the network
+- The only problem is that we don't get to keep negative values and instead turn negative inputs to 0
+- This produces much better and more accurate outputs and is widely used
+
+
+LeakyRelu: output -> input if input < 0 or output = input if input >= 0
+- Very similar to reLU but with a very mild negative output if input is negative
+- This is better as it avoids more dead neurons
+- Produces the best results and the best models seem to use a combination of reLU and leaky reLU
+
+
+Softmax: output = set of probabilities based on number of output connections
+- We usually use this as the final output layer
+- Excellent way to end as it allows us to view all of the possible answers and pick the one with the highest probability
+
+0.1    0.2   0.0001   0.6    0.01
+a       b      c       d      e
