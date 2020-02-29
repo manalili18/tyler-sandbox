@@ -14,33 +14,33 @@ stackskills.com. Days 1 and 2 are basics of Python.
     - we will use convolutional NN trained with supervised learning
 
 ### 4 steps
-    1. processing 
-        - more relevant == more accurate
-        - gather a lot of data is time consuming
-            - a lot of preformatted databases online
-            - data collection can be the most frustrating
-        - data formatting must be the same and easily interpreted
-        - divide data into training and testing sets and label the data
+1. processing 
+    - more relevant == more accurate
+    - gather a lot of data is time consuming
+        - a lot of preformatted databases online
+        - data collection can be the most frustrating
+    - data formatting must be the same and easily interpreted
+    - divide data into training and testing sets and label the data
 
-    2. building
-        - write algortithms
-        - clever way to interpret 
-        - decide which model works best for our problem (conv nn)
-        - construct computational graph
-        - interconnected nodes that hold values or ops and maps pathways from 
-            inputs to outputs
-        - graph is where all the calc happens
-        - time consuming
+2. building
+    - write algortithms
+    - clever way to interpret 
+    - decide which model works best for our problem (conv nn)
+    - construct computational graph
+    - interconnected nodes that hold values or ops and maps pathways from 
+        inputs to outputs
+    - graph is where all the calc happens
+    - time consuming
 
-    3. training
-        - model is only as good as the data
-        - during training, becoming more accurate
-        - run training set for learning
-        - minimize loss (the difference between NN answers vs 'correct' answers)
+3. training
+    - model is only as good as the data
+    - during training, becoming more accurate
+    - run training set for learning
+    - minimize loss (the difference between NN answers vs 'correct' answers)
 
-    4. testing
-        - run it on data it has never seen before
-        - convert output into something meaningful to us
+4. testing
+    - run it on data it has never seen before
+    - convert output into something meaningful to us
 
 ### Extra learning
 - checkout other ML algos
