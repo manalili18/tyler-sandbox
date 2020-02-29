@@ -251,6 +251,9 @@ model.predict()
 
 ## Day 5: Format Datasets and Examine CIFAR-10
 ### 00. Intro to Day 5
+Focus: learning to format data
+Coding day
+
 ### 01. Exploring CIFAR10 Dataset
 ### 02. Understanding Specific Data
 ### 03. Formatting Input Images
