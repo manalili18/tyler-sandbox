@@ -1,0 +1,83 @@
+meta
+  analyzer_version
+  platform
+  detailed_status
+  status_code
+  timestamp
+  analysis_time
+  input_process
+
+track
+  num_samples
+    4416762
+  duration
+    200.30667
+  sample_md5
+    
+  offset_seconds
+    0
+  window_seconds
+    0
+  analysis_sample_rate
+    22050
+  analysis_channels
+    1
+  end_of_fade_in
+    0.38327
+  start_of_fade_out
+    192.41796
+  loudness
+    -6.26
+  tempo
+    114.623
+  tempo_confidence
+    0.927
+  time_signature
+    4
+  time_signature_confidence
+    1.0
+  key
+    4
+  key_confidence
+    0.468
+  mode
+    0
+  mode_confidence
+    0.475
+  codestring
+    eJxVmomVZD... truncated
+  code_version
+    3.15
+  echoprintstring
+    eJzNnQuSND... truncated
+  echoprint_version
+    4.12
+  synchstring
+    eJxdWguS5D... truncated
+  synch_version
+    1.0
+  rhythmstring
+    eJxdWwmSJD... truncated
+  rhythm_version
+    1.0
+
+bars
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+beats
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+tatums
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+sections
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
+segments
+  This section contains tons of timestamped attributes.
+  Run `python audio_analysis_verbose.py` to see the contents.
+
